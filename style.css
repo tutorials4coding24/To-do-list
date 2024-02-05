@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("To-do-list.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 94vh;
+}
+
+#todoList {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    /* padding: 0; */
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+.delete-btn {
+    background-color: #6670ff;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+}
